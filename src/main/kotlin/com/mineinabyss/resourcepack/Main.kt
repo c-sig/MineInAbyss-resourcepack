@@ -7,7 +7,7 @@ import com.mineinabyss.resourcepack.steps.generateWithModelEngine
 import com.mineinabyss.resourcepack.steps.zipFiles
 
 fun main() {
-//    collectBlueprints()
-//    generateWithModelEngine()
+    collectBlueprints()
+    generateWithModelEngine()
     zipFiles()
 }

@@ -15,6 +15,9 @@ object Config {
                 Path("assets/minecraft/models/item/leather_horse_armor.json")
             )
         ),
-        CopyDir(Dirs.out / "hit_gen/assets")
+        CopyDir(Dirs.out / "hit_gen/assets"),
+        CopyDir(File("pack.mcmeta")),
+        CopyDir(File("pack.png")),
+        CopyDir(File("LICENSE")),
     )
 }
